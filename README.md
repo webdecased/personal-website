@@ -2,6 +2,8 @@
 
 This is my personal webiste's repository.
 
+![banner](https://i.imgur.com/CH8C0Ns.png)
+
 ### ⚙️ Technologies
 
 - `nextjs` as framework
