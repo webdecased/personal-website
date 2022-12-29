@@ -1,6 +1,7 @@
 # personal-website
 
 This is my personal webiste's repository.
+http://webdecased.xyz/
 
 ![banner](https://i.imgur.com/CH8C0Ns.png)
 
