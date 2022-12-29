@@ -1,0 +1,85 @@
+.skills {
+	display: flex;
+	justify-content: space-between;
+}
+
+.man {
+	margin-top: 260px;
+	opacity: 60%;
+}
+
+.container {
+	margin-top: 200px;
+}
+
+.container h2 {
+	font-size: 48px;
+	font-weight: 700;
+	color: #048a89;
+}
+
+.cards {
+	margin-top: 100px;
+	display: flex;
+	gap: 50px;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.card:not(:first-child) {
+	margin-top: 30px;
+}
+
+.card span {
+	font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+	.man {
+		position: absolute;
+		z-index: -1;
+		opacity: 50%;
+		margin-top: 60px;
+		left: 707px;
+	}
+}
+
+@media (max-width: 992px) {
+	.card span {
+		font-size: 16px;
+	}
+	.man {
+		position: absolute;
+		z-index: -1;
+		opacity: 15%;
+		margin-top: 60px;
+		left: 407px;
+	}
+}
+
+@media (max-width: 768px) {
+	.container {
+		margin-top: 100px;
+	}
+	.cards {
+		flex-wrap: wrap;
+	}
+	.card img {
+		width: 30px;
+		height: 30px;
+	}
+	.card span {
+		font-size: 18px;
+	}
+	.man {
+		position: absolute;
+		z-index: -1;
+		opacity: 15%;
+		margin-top: 60px;
+		left: 15px;
+	}
+}

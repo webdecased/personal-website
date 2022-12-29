@@ -1,0 +1,31 @@
+{
+	"langSwitcher": "eng",
+	"links": [
+		{
+			"title": "Главная",
+			"id": "home",
+			"offset": -250
+		},
+		{
+			"title": "Обо мне",
+			"id": "about",
+			"offset": -200
+		},
+		{
+			"title": "Навыки",
+			"id": "skills",
+			"offset": -20
+		},
+		{
+			"title": "Проекты",
+			"id": "projects",
+			"offset": -200
+		},
+		{
+			"title": "Контакты",
+			"id": "contacts",
+			"offset": 0
+		}
+	],
+	"contact": "Свзяаться"
+}

@@ -1,0 +1,31 @@
+{
+	"langSwitcher": "rus",
+	"links": [
+		{
+			"title": "Home",
+			"id": "home",
+			"offset": -250
+		},
+		{
+			"title": "About",
+			"id": "about",
+			"offset": -200
+		},
+		{
+			"title": "Skills",
+			"id": "skills",
+			"offset": -20
+		},
+		{
+			"title": "Projects",
+			"id": "projects",
+			"offset": -200
+		},
+		{
+			"title": "Contacts",
+			"id": "contacts",
+			"offset": 0
+		}
+	],
+	"contact": "Contact"
+}

@@ -1,0 +1,81 @@
+.container {
+	max-width: 1000px;
+	margin: 0 auto;
+}
+
+.letswork {
+	margin-top: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.details h2 {
+	font-size: 40px;
+	font-weight: 700;
+	color: #014d5d;
+}
+
+.details p {
+	margin-top: 15px;
+	font-size: 24px;
+	font-weight: 400;
+	color: #036a73;
+}
+
+.letswork a {
+	display: flex;
+	color: #fff;
+	border-radius: 50px;
+	background-color: #048a89;
+	align-items: center;
+	justify-content: center;
+	min-width: 206px;
+	gap: 10px;
+	font-size: 24px;
+	padding: 10px 40px;
+	background-color: none;
+	transition: background-color 0.15s ease 0s, color 0.15s ease 0s;
+}
+
+.letswork a:hover {
+	background-color: #036a73;
+}
+
+.letswork a:active {
+	background-color: #014d5d;
+}
+
+.letswork a svg path {
+	stroke: #fff;
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+	.letswork {
+		margin-top: 100px;
+		flex-direction: column;
+		gap: 25px;
+	}
+	.container {
+		max-width: var(--max-width-xs);
+	}
+	.details h2 {
+		font-size: 24px;
+	}
+	.letswork a {
+		font-size: 16px;
+	}
+	.letswork a svg {
+		width: 20px;
+		height: 20px;
+	}
+	.details p {
+		font-size: 16px;
+	}
+}
