@@ -4,7 +4,7 @@ import { Link } from 'react-scroll';
 import { WordAnimation } from './wordanimation';
 import styles from '../styles/Hero.module.css';
 
-const word = 'webdecased';
+const word = 'webdeceased';
 
 export const Hero = () => {
 	const { t } = useTranslation('hero');
