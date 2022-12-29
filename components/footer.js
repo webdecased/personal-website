@@ -11,7 +11,11 @@ export const Footer = () => {
 					© 2022 <Link href="/">webdeceased</Link>
 				</p>
 				<p>
-					{t('title')} <Link href="/">github</Link>.
+					{t('title')}{' '}
+					<Link href="https://github.com/webdeceased/personal-website">
+						github
+					</Link>
+					.
 				</p>
 			</div>
 		</div>
